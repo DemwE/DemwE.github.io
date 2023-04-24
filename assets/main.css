@@ -10,13 +10,24 @@ body{
     color: #010033;
     font-family: 'MainFont';
     src: url(Quenda-Medium.otf);
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
 }
 
 /* In top left corner */
-.logo{
+.LogoDiv{
     position: absolute;
     top: 0;
-    right: 0;
-    padding: 10px;
-    font-size: 1000px;
+    left: 10;
+    width: 110px;
+    height: 100px;
+}
+
+center{
+    color: #ffffff;
+}
+
+center h1{
+    font-size: 100px;
 }
