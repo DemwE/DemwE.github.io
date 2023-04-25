@@ -1,4 +1,5 @@
-/* Font */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
     font-family: 'MainFont';
     src: url('Quenda-Medium.otf') format('opentype');
@@ -30,4 +31,9 @@ center{
 
 center h1{
     font-size: 100px;
+}
+
+h2, p{
+    font-family: 'Poppins', sans-serif;
+    color: #010033;
 }
